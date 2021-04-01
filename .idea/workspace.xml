@@ -20,37 +20,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="93d870e0-5e28-4020-811f-f585ec289a64" name="Default Changelist" comment="Oh Git you are so funny. New branch with all of the files related to the Golang Course.">
-      <change afterPath="$PROJECT_DIR$/.idea/golangCourse.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AboutComputers.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Random.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bitShifting/main.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bool/main.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/conditionalLogicOperator/main.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/conditionalSwitchStatement/main.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/constants/main.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/creatingYourOwnType/main.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/exercisesJediLevel1/main.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/exercisesJediLevel2/main.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/exercisesJediLevel3/main.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fmtPkg/main.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/forLoopInDepth/main.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/go.mod" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/go.sum" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hello.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ifElseLoop/main.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/iota/main.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/keywords/main.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/loops/main.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/loopsConditionalModulus/main.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/numeralSystems/main.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/numericTypes/main.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/numericTypes/readme.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/strings/main.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/types/main.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/zeroValue/main.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exercisesJediLevel3/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/exercisesJediLevel3/main.go" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -59,6 +30,11 @@
   </component>
   <component name="GOROOT" path="/usr/local/go" />
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="main" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1qY7Y3WPPI7k8jIRGChGMTUDhsc" />
@@ -82,6 +58,22 @@
       <recent name="$PROJECT_DIR$" />
     </key>
   </component>
+  <component name="RunManager">
+    <configuration name="go build forExample/exercisesJediLevel3" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="golangCourse" />
+      <working_directory value="$PROJECT_DIR$" />
+      <kind value="PACKAGE" />
+      <filePath value="$PROJECT_DIR$/exercisesJediLevel3/main.go" />
+      <package value="forExample/exercisesJediLevel3" />
+      <directory value="$PROJECT_DIR$" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Go Build.go build forExample/exercisesJediLevel3" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -91,6 +83,14 @@
       <option name="presentableId" value="Default" />
       <updated>1617244715138</updated>
     </task>
+    <task id="LOCAL-00001" summary="Oh Git you are so funny. New branch with all of the files related to the Golang Course.">
+      <created>1617245059092</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1617245059092</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -119,5 +119,25 @@
       <screen x="0" y="23" width="1280" height="727" />
     </state>
     <state x="453" y="189" key="#Go_Modules/0.23.1280.727@0.23.1280.727" timestamp="1617244858999" />
+    <state width="1224" height="277" key="GridCell.Tab.0.bottom" timestamp="1617252861761">
+      <screen x="0" y="23" width="1280" height="727" />
+    </state>
+    <state width="1224" height="277" key="GridCell.Tab.0.bottom/0.23.1280.727@0.23.1280.727" timestamp="1617252861761" />
+    <state width="1224" height="277" key="GridCell.Tab.0.center" timestamp="1617252861760">
+      <screen x="0" y="23" width="1280" height="727" />
+    </state>
+    <state width="1224" height="277" key="GridCell.Tab.0.center/0.23.1280.727@0.23.1280.727" timestamp="1617252861760" />
+    <state width="1224" height="277" key="GridCell.Tab.0.left" timestamp="1617252861759">
+      <screen x="0" y="23" width="1280" height="727" />
+    </state>
+    <state width="1224" height="277" key="GridCell.Tab.0.left/0.23.1280.727@0.23.1280.727" timestamp="1617252861759" />
+    <state width="1224" height="277" key="GridCell.Tab.0.right" timestamp="1617252861760">
+      <screen x="0" y="23" width="1280" height="727" />
+    </state>
+    <state width="1224" height="277" key="GridCell.Tab.0.right/0.23.1280.727@0.23.1280.727" timestamp="1617252861760" />
+    <state x="140" y="48" key="Vcs.Push.Dialog.v2" timestamp="1617245064535">
+      <screen x="0" y="23" width="1280" height="727" />
+    </state>
+    <state x="140" y="48" key="Vcs.Push.Dialog.v2/0.23.1280.727@0.23.1280.727" timestamp="1617245064535" />
   </component>
 </project>
