@@ -19,10 +19,10 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="93d870e0-5e28-4020-811f-f585ec289a64" name="Default Changelist" comment="Done exercising for now.">
-      <change afterPath="$PROJECT_DIR$/arrays/main.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/slice/main.go" afterDir="false" />
+    <list default="true" id="93d870e0-5e28-4020-811f-f585ec289a64" name="Default Changelist" comment="Arrays and slices.">
+      <change afterPath="$PROJECT_DIR$/parametersAndArguments/main.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/slice/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/slice/main.go" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,7 +40,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="main" />
+        <entry key="$PROJECT_DIR$" value="Arrays&amp;Slices" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -86,6 +86,15 @@
       <directory value="$PROJECT_DIR$" />
       <method v="2" />
     </configuration>
+    <configuration name="go build forExample/parametersAndArguments" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="golangCourse" />
+      <working_directory value="$PROJECT_DIR$" />
+      <kind value="PACKAGE" />
+      <filePath value="$PROJECT_DIR$/parametersAndArguments/main.go" />
+      <package value="forExample/parametersAndArguments" />
+      <directory value="$PROJECT_DIR$" />
+      <method v="2" />
+    </configuration>
     <configuration name="go build forExample/slice" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="golangCourse" />
       <working_directory value="$PROJECT_DIR$" />
@@ -98,10 +107,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="Go Build.go build forExample/slice" />
+        <item itemvalue="Go Build.go build forExample/parametersAndArguments" />
         <item itemvalue="Go Build.go build forExample/exercisesJediLevel3" />
         <item itemvalue="Go Build.go build forExample/arrays" />
         <item itemvalue="Go Build.go build forExample/slice" />
-        <item itemvalue="Go Build.go build forExample/arrays" />
       </list>
     </recent_temporary>
   </component>
@@ -128,7 +137,21 @@
       <option name="project" value="LOCAL" />
       <updated>1617252908227</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Arrays and slices.">
+      <created>1618372189745</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1618372189745</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Arrays and slices.">
+      <created>1618372255496</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1618372255496</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -144,11 +167,13 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Oh Git you are so funny. New branch with all of the files related to the Golang Course." />
     <MESSAGE value="Done exercising for now." />
-    <option name="LAST_COMMIT_MESSAGE" value="Done exercising for now." />
+    <MESSAGE value="Arrays and slices." />
+    <option name="LAST_COMMIT_MESSAGE" value="Arrays and slices." />
   </component>
   <component name="VgoProject">
     <integration-enabled>true</integration-enabled>
@@ -158,26 +183,34 @@
       <screen x="0" y="23" width="1280" height="727" />
     </state>
     <state x="453" y="189" key="#Go_Modules/0.23.1280.727@0.23.1280.727" timestamp="1617244858999" />
-    <state width="1224" height="139" key="GridCell.Tab.0.bottom" timestamp="1618371805096">
+    <state width="1224" height="193" key="GridCell.Tab.0.bottom" timestamp="1619402219370">
       <screen x="0" y="23" width="1280" height="727" />
     </state>
-    <state width="1224" height="139" key="GridCell.Tab.0.bottom/0.23.1280.727@0.23.1280.727" timestamp="1618371805096" />
-    <state width="1224" height="139" key="GridCell.Tab.0.center" timestamp="1618371805095">
+    <state width="1224" height="139" key="GridCell.Tab.0.bottom/0.23.1280.727/-1920.-257.1920.1057@0.23.1280.727" timestamp="1618455366411" />
+    <state width="1224" height="193" key="GridCell.Tab.0.bottom/0.23.1280.727@0.23.1280.727" timestamp="1619402219370" />
+    <state width="1224" height="193" key="GridCell.Tab.0.center" timestamp="1619402219369">
       <screen x="0" y="23" width="1280" height="727" />
     </state>
-    <state width="1224" height="139" key="GridCell.Tab.0.center/0.23.1280.727@0.23.1280.727" timestamp="1618371805095" />
-    <state width="1224" height="139" key="GridCell.Tab.0.left" timestamp="1618371805094">
+    <state width="1224" height="139" key="GridCell.Tab.0.center/0.23.1280.727/-1920.-257.1920.1057@0.23.1280.727" timestamp="1618455366410" />
+    <state width="1224" height="193" key="GridCell.Tab.0.center/0.23.1280.727@0.23.1280.727" timestamp="1619402219369" />
+    <state width="1224" height="193" key="GridCell.Tab.0.left" timestamp="1619402219369">
       <screen x="0" y="23" width="1280" height="727" />
     </state>
-    <state width="1224" height="139" key="GridCell.Tab.0.left/0.23.1280.727@0.23.1280.727" timestamp="1618371805094" />
-    <state width="1224" height="139" key="GridCell.Tab.0.right" timestamp="1618371805095">
+    <state width="1224" height="139" key="GridCell.Tab.0.left/0.23.1280.727/-1920.-257.1920.1057@0.23.1280.727" timestamp="1618455366409" />
+    <state width="1224" height="193" key="GridCell.Tab.0.left/0.23.1280.727@0.23.1280.727" timestamp="1619402219369" />
+    <state width="1224" height="193" key="GridCell.Tab.0.right" timestamp="1619402219369">
       <screen x="0" y="23" width="1280" height="727" />
     </state>
-    <state width="1224" height="139" key="GridCell.Tab.0.right/0.23.1280.727@0.23.1280.727" timestamp="1618371805095" />
-    <state x="140" y="48" key="Vcs.Push.Dialog.v2" timestamp="1617252928148">
+    <state width="1224" height="139" key="GridCell.Tab.0.right/0.23.1280.727/-1920.-257.1920.1057@0.23.1280.727" timestamp="1618455366410" />
+    <state width="1224" height="193" key="GridCell.Tab.0.right/0.23.1280.727@0.23.1280.727" timestamp="1619402219369" />
+    <state x="140" y="48" key="Vcs.Push.Dialog.v2" timestamp="1618372325699">
       <screen x="0" y="23" width="1280" height="727" />
     </state>
-    <state x="140" y="48" key="Vcs.Push.Dialog.v2/0.23.1280.727@0.23.1280.727" timestamp="1617252928148" />
+    <state x="140" y="48" key="Vcs.Push.Dialog.v2/0.23.1280.727@0.23.1280.727" timestamp="1618372325699" />
+    <state x="0" y="23" width="724" height="727" key="find.popup" timestamp="1618795936046">
+      <screen x="0" y="23" width="1280" height="727" />
+    </state>
+    <state x="0" y="23" width="724" height="727" key="find.popup/0.23.1280.727@0.23.1280.727" timestamp="1618795936046" />
     <state x="221" y="23" width="838" height="1032" key="search.everywhere.popup" timestamp="1618370050101">
       <screen x="0" y="23" width="1280" height="727" />
     </state>

@@ -17,9 +17,12 @@ func main() {
 	x := []int{4, 5, 6, 9}
 	fmt.Println(x)
 
-	loopingOverSlice()
-	slicingASlice()
-	appendToASlice()
+	//loopingOverSlice()
+	//slicingASlice()
+	//appendToASlice()
+	//deletingFromASlice()
+	//sliceUsingMake()
+	multiDimensionalSlice()
 }
 
 func loopingOverSlice() {
@@ -62,4 +65,38 @@ func appendToASlice() {
 	// ... is considered a variadic parameter
 	a = append(a, d...)
 	fmt.Println(a)
+}
+
+func deletingFromASlice() {
+	r := []int{7, 8, 9, 4, 2, 5}
+	fmt.Println(r)
+
+	// Delete all the way up to but not including the index of 2
+	r = append(r[:2], r[4:]...)
+	fmt.Println(r)
+}
+
+func sliceUsingMake() {
+	// make(type, length, capacity)
+	w := make([]int, 12, 100)
+	fmt.Println(w)
+	fmt.Println(len(w))
+	fmt.Println(cap(w))
+	w[0] = 3
+	w[9] = 999
+	fmt.Println(w)
+
+	w = append(w, 7654)
+	fmt.Println(w)
+}
+
+func multiDimensionalSlice() {
+	jamesBond := []string{"James", "Bond", "chocolate", "martini"}
+	fmt.Println(jamesBond)
+
+	moneyPenny := []string{"Miss", "Moneypenny", "strawberry", "bubblegum"}
+	fmt.Println(moneyPenny)
+
+	xp := [][]string{jamesBond, moneyPenny}
+	fmt.Println(xp)
 }
