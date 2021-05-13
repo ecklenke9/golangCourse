@@ -19,9 +19,11 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="93d870e0-5e28-4020-811f-f585ec289a64" name="Default Changelist" comment="Fixing the workspace.xml file">
-      <change afterPath="$PROJECT_DIR$/structs/main.go" afterDir="false" />
+    <list default="true" id="93d870e0-5e28-4020-811f-f585ec289a64" name="Default Changelist" comment="Finished up the good ole structs.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Random.md" beforeDir="false" afterPath="$PROJECT_DIR$/Random.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hello.go" beforeDir="false" afterPath="$PROJECT_DIR$/hello.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/structs/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/structs/main.go" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -69,13 +71,13 @@
       <recent name="$PROJECT_DIR$" />
     </key>
   </component>
-  <component name="RunManager" selected="Go Build.go build forExample/structs">
-    <configuration name="go build forExample/exercisesJediLevel3" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Go Build.go build forExample">
+    <configuration name="go build forExample" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="golangCourse" />
       <working_directory value="$PROJECT_DIR$" />
       <kind value="PACKAGE" />
-      <filePath value="$PROJECT_DIR$/exercisesJediLevel3/main.go" />
-      <package value="forExample/exercisesJediLevel3" />
+      <filePath value="$PROJECT_DIR$/hello.go" />
+      <package value="forExample" />
       <directory value="$PROJECT_DIR$" />
       <method v="2" />
     </configuration>
@@ -117,11 +119,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Go Build.go build forExample" />
         <item itemvalue="Go Build.go build forExample/structs" />
         <item itemvalue="Go Build.go build forExample/exercisesJediLevel4" />
         <item itemvalue="Go Build.go build forExample/slice" />
         <item itemvalue="Go Build.go build forExample/parametersAndArguments" />
-        <item itemvalue="Go Build.go build forExample/exercisesJediLevel3" />
       </list>
     </recent_temporary>
   </component>
@@ -176,7 +178,14 @@
       <option name="project" value="LOCAL" />
       <updated>1620012365548</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Finished up the good ole structs.">
+      <created>1620876691503</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1620876691503</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -199,7 +208,8 @@
     <MESSAGE value="Arrays and slices." />
     <MESSAGE value="Done exercising for now." />
     <MESSAGE value="Fixing the workspace.xml file" />
-    <option name="LAST_COMMIT_MESSAGE" value="Fixing the workspace.xml file" />
+    <MESSAGE value="Finished up the good ole structs." />
+    <option name="LAST_COMMIT_MESSAGE" value="Finished up the good ole structs." />
   </component>
   <component name="VgoProject">
     <integration-enabled>true</integration-enabled>
@@ -213,46 +223,46 @@
       <screen x="0" y="23" width="1280" height="727" />
     </state>
     <state x="344" y="179" key="#com.intellij.fileTypes.FileTypeChooser/0.23.1280.727@0.23.1280.727" timestamp="1620875655599" />
-    <state width="1224" height="185" key="GridCell.Tab.0.bottom" timestamp="1620876581947">
+    <state width="1224" height="185" key="GridCell.Tab.0.bottom" timestamp="1620878834309">
       <screen x="0" y="23" width="1280" height="727" />
     </state>
     <state width="1224" height="139" key="GridCell.Tab.0.bottom/0.23.1280.727/-1920.-257.1920.1057@0.23.1280.727" timestamp="1618455366411" />
-    <state width="1224" height="185" key="GridCell.Tab.0.bottom/0.23.1280.727@0.23.1280.727" timestamp="1620876581947" />
-    <state width="1224" height="185" key="GridCell.Tab.0.center" timestamp="1620876581946">
+    <state width="1224" height="185" key="GridCell.Tab.0.bottom/0.23.1280.727@0.23.1280.727" timestamp="1620878834309" />
+    <state width="1224" height="185" key="GridCell.Tab.0.center" timestamp="1620878834309">
       <screen x="0" y="23" width="1280" height="727" />
     </state>
     <state width="1224" height="139" key="GridCell.Tab.0.center/0.23.1280.727/-1920.-257.1920.1057@0.23.1280.727" timestamp="1618455366410" />
-    <state width="1224" height="185" key="GridCell.Tab.0.center/0.23.1280.727@0.23.1280.727" timestamp="1620876581946" />
-    <state width="1224" height="185" key="GridCell.Tab.0.left" timestamp="1620876581944">
+    <state width="1224" height="185" key="GridCell.Tab.0.center/0.23.1280.727@0.23.1280.727" timestamp="1620878834309" />
+    <state width="1224" height="185" key="GridCell.Tab.0.left" timestamp="1620878834308">
       <screen x="0" y="23" width="1280" height="727" />
     </state>
     <state width="1224" height="139" key="GridCell.Tab.0.left/0.23.1280.727/-1920.-257.1920.1057@0.23.1280.727" timestamp="1618455366409" />
-    <state width="1224" height="185" key="GridCell.Tab.0.left/0.23.1280.727@0.23.1280.727" timestamp="1620876581944" />
-    <state width="1224" height="185" key="GridCell.Tab.0.right" timestamp="1620876581946">
+    <state width="1224" height="185" key="GridCell.Tab.0.left/0.23.1280.727@0.23.1280.727" timestamp="1620878834308" />
+    <state width="1224" height="185" key="GridCell.Tab.0.right" timestamp="1620878834309">
       <screen x="0" y="23" width="1280" height="727" />
     </state>
     <state width="1224" height="139" key="GridCell.Tab.0.right/0.23.1280.727/-1920.-257.1920.1057@0.23.1280.727" timestamp="1618455366410" />
-    <state width="1224" height="185" key="GridCell.Tab.0.right/0.23.1280.727@0.23.1280.727" timestamp="1620876581946" />
-    <state width="1224" height="210" key="GridCell.Tab.1.bottom" timestamp="1620699288113">
+    <state width="1224" height="185" key="GridCell.Tab.0.right/0.23.1280.727@0.23.1280.727" timestamp="1620878834309" />
+    <state width="1224" height="210" key="GridCell.Tab.1.bottom" timestamp="1620877141860">
       <screen x="0" y="23" width="1280" height="727" />
     </state>
-    <state width="1224" height="210" key="GridCell.Tab.1.bottom/0.23.1280.727@0.23.1280.727" timestamp="1620699288113" />
-    <state width="1224" height="210" key="GridCell.Tab.1.center" timestamp="1620699288111">
+    <state width="1224" height="210" key="GridCell.Tab.1.bottom/0.23.1280.727@0.23.1280.727" timestamp="1620877141860" />
+    <state width="1224" height="210" key="GridCell.Tab.1.center" timestamp="1620877141859">
       <screen x="0" y="23" width="1280" height="727" />
     </state>
-    <state width="1224" height="210" key="GridCell.Tab.1.center/0.23.1280.727@0.23.1280.727" timestamp="1620699288111" />
-    <state width="1224" height="210" key="GridCell.Tab.1.left" timestamp="1620699288111">
+    <state width="1224" height="210" key="GridCell.Tab.1.center/0.23.1280.727@0.23.1280.727" timestamp="1620877141859" />
+    <state width="1224" height="210" key="GridCell.Tab.1.left" timestamp="1620877141859">
       <screen x="0" y="23" width="1280" height="727" />
     </state>
-    <state width="1224" height="210" key="GridCell.Tab.1.left/0.23.1280.727@0.23.1280.727" timestamp="1620699288111" />
-    <state width="1224" height="210" key="GridCell.Tab.1.right" timestamp="1620699288112">
+    <state width="1224" height="210" key="GridCell.Tab.1.left/0.23.1280.727@0.23.1280.727" timestamp="1620877141859" />
+    <state width="1224" height="210" key="GridCell.Tab.1.right" timestamp="1620877141859">
       <screen x="0" y="23" width="1280" height="727" />
     </state>
-    <state width="1224" height="210" key="GridCell.Tab.1.right/0.23.1280.727@0.23.1280.727" timestamp="1620699288112" />
-    <state x="140" y="48" key="Vcs.Push.Dialog.v2" timestamp="1620012367067">
+    <state width="1224" height="210" key="GridCell.Tab.1.right/0.23.1280.727@0.23.1280.727" timestamp="1620877141859" />
+    <state x="140" y="48" key="Vcs.Push.Dialog.v2" timestamp="1620876703984">
       <screen x="0" y="23" width="1280" height="727" />
     </state>
-    <state x="140" y="48" key="Vcs.Push.Dialog.v2/0.23.1280.727@0.23.1280.727" timestamp="1620012367067" />
+    <state x="140" y="48" key="Vcs.Push.Dialog.v2/0.23.1280.727@0.23.1280.727" timestamp="1620876703984" />
     <state x="0" y="23" width="724" height="727" key="find.popup" timestamp="1618795936046">
       <screen x="0" y="23" width="1280" height="727" />
     </state>
