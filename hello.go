@@ -4,14 +4,32 @@ import "fmt"
 
 func main() {
 	fmt.Println("Hello this is main")
-	foo()
-	bar()
+	food()
+	bars()
+	trickery()
 }
-func foo() {
-	fmt.Println("This is foo")
+func food() {
+	fmt.Println("This is food")
 }
-func bar() {
-	fmt.Println("This is bar")
+func bars() {
+	fmt.Println("This is bars")
+}
+
+type foo int
+
+var y foo
+
+const bar int = 42
+const yogurt = "strawberry"
+
+func trickery() {
+	y = 42
+	x := yogurt
+	fmt.Printf("%T \n", y)
+	fmt.Printf("%T \n", int(y))
+	fmt.Printf("%T \n", bar)
+	fmt.Println(bar)
+	fmt.Printf("%T", x)
 }
 
 //Control Flow

@@ -10,6 +10,7 @@ import "fmt"
 // type. Within a struct, non-blank field names must be unique.
 
 type person struct {
+	//identifier, type
 	first string
 	last  string
 	age   int
