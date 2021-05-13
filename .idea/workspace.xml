@@ -20,8 +20,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="93d870e0-5e28-4020-811f-f585ec289a64" name="Default Changelist" comment="Fixing the workspace.xml file">
+      <change afterPath="$PROJECT_DIR$/structs/main.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/exercisesJediLevel4/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/exercisesJediLevel4/main.go" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,7 +39,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="Arrays&amp;Slices" />
+        <entry key="$PROJECT_DIR$" value="main" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -69,16 +69,7 @@
       <recent name="$PROJECT_DIR$" />
     </key>
   </component>
-  <component name="RunManager" selected="Go Build.go build forExample/exercisesJediLevel4">
-    <configuration name="go build forExample/arrays" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
-      <module name="golangCourse" />
-      <working_directory value="$PROJECT_DIR$" />
-      <kind value="PACKAGE" />
-      <filePath value="$PROJECT_DIR$/arrays/main.go" />
-      <package value="forExample/arrays" />
-      <directory value="$PROJECT_DIR$" />
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="Go Build.go build forExample/structs">
     <configuration name="go build forExample/exercisesJediLevel3" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="golangCourse" />
       <working_directory value="$PROJECT_DIR$" />
@@ -115,13 +106,22 @@
       <directory value="$PROJECT_DIR$" />
       <method v="2" />
     </configuration>
+    <configuration name="go build forExample/structs" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="golangCourse" />
+      <working_directory value="$PROJECT_DIR$" />
+      <kind value="PACKAGE" />
+      <filePath value="$PROJECT_DIR$/structs/main.go" />
+      <package value="forExample/structs" />
+      <directory value="$PROJECT_DIR$" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Go Build.go build forExample/structs" />
         <item itemvalue="Go Build.go build forExample/exercisesJediLevel4" />
         <item itemvalue="Go Build.go build forExample/slice" />
         <item itemvalue="Go Build.go build forExample/parametersAndArguments" />
         <item itemvalue="Go Build.go build forExample/exercisesJediLevel3" />
-        <item itemvalue="Go Build.go build forExample/arrays" />
       </list>
     </recent_temporary>
   </component>
@@ -209,26 +209,46 @@
       <screen x="0" y="23" width="1280" height="727" />
     </state>
     <state x="453" y="189" key="#Go_Modules/0.23.1280.727@0.23.1280.727" timestamp="1617244858999" />
-    <state width="1224" height="185" key="GridCell.Tab.0.bottom" timestamp="1620689678504">
+    <state x="344" y="179" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1620875655599">
+      <screen x="0" y="23" width="1280" height="727" />
+    </state>
+    <state x="344" y="179" key="#com.intellij.fileTypes.FileTypeChooser/0.23.1280.727@0.23.1280.727" timestamp="1620875655599" />
+    <state width="1224" height="185" key="GridCell.Tab.0.bottom" timestamp="1620876581947">
       <screen x="0" y="23" width="1280" height="727" />
     </state>
     <state width="1224" height="139" key="GridCell.Tab.0.bottom/0.23.1280.727/-1920.-257.1920.1057@0.23.1280.727" timestamp="1618455366411" />
-    <state width="1224" height="185" key="GridCell.Tab.0.bottom/0.23.1280.727@0.23.1280.727" timestamp="1620689678504" />
-    <state width="1224" height="185" key="GridCell.Tab.0.center" timestamp="1620689678503">
+    <state width="1224" height="185" key="GridCell.Tab.0.bottom/0.23.1280.727@0.23.1280.727" timestamp="1620876581947" />
+    <state width="1224" height="185" key="GridCell.Tab.0.center" timestamp="1620876581946">
       <screen x="0" y="23" width="1280" height="727" />
     </state>
     <state width="1224" height="139" key="GridCell.Tab.0.center/0.23.1280.727/-1920.-257.1920.1057@0.23.1280.727" timestamp="1618455366410" />
-    <state width="1224" height="185" key="GridCell.Tab.0.center/0.23.1280.727@0.23.1280.727" timestamp="1620689678503" />
-    <state width="1224" height="185" key="GridCell.Tab.0.left" timestamp="1620689678502">
+    <state width="1224" height="185" key="GridCell.Tab.0.center/0.23.1280.727@0.23.1280.727" timestamp="1620876581946" />
+    <state width="1224" height="185" key="GridCell.Tab.0.left" timestamp="1620876581944">
       <screen x="0" y="23" width="1280" height="727" />
     </state>
     <state width="1224" height="139" key="GridCell.Tab.0.left/0.23.1280.727/-1920.-257.1920.1057@0.23.1280.727" timestamp="1618455366409" />
-    <state width="1224" height="185" key="GridCell.Tab.0.left/0.23.1280.727@0.23.1280.727" timestamp="1620689678502" />
-    <state width="1224" height="185" key="GridCell.Tab.0.right" timestamp="1620689678503">
+    <state width="1224" height="185" key="GridCell.Tab.0.left/0.23.1280.727@0.23.1280.727" timestamp="1620876581944" />
+    <state width="1224" height="185" key="GridCell.Tab.0.right" timestamp="1620876581946">
       <screen x="0" y="23" width="1280" height="727" />
     </state>
     <state width="1224" height="139" key="GridCell.Tab.0.right/0.23.1280.727/-1920.-257.1920.1057@0.23.1280.727" timestamp="1618455366410" />
-    <state width="1224" height="185" key="GridCell.Tab.0.right/0.23.1280.727@0.23.1280.727" timestamp="1620689678503" />
+    <state width="1224" height="185" key="GridCell.Tab.0.right/0.23.1280.727@0.23.1280.727" timestamp="1620876581946" />
+    <state width="1224" height="210" key="GridCell.Tab.1.bottom" timestamp="1620699288113">
+      <screen x="0" y="23" width="1280" height="727" />
+    </state>
+    <state width="1224" height="210" key="GridCell.Tab.1.bottom/0.23.1280.727@0.23.1280.727" timestamp="1620699288113" />
+    <state width="1224" height="210" key="GridCell.Tab.1.center" timestamp="1620699288111">
+      <screen x="0" y="23" width="1280" height="727" />
+    </state>
+    <state width="1224" height="210" key="GridCell.Tab.1.center/0.23.1280.727@0.23.1280.727" timestamp="1620699288111" />
+    <state width="1224" height="210" key="GridCell.Tab.1.left" timestamp="1620699288111">
+      <screen x="0" y="23" width="1280" height="727" />
+    </state>
+    <state width="1224" height="210" key="GridCell.Tab.1.left/0.23.1280.727@0.23.1280.727" timestamp="1620699288111" />
+    <state width="1224" height="210" key="GridCell.Tab.1.right" timestamp="1620699288112">
+      <screen x="0" y="23" width="1280" height="727" />
+    </state>
+    <state width="1224" height="210" key="GridCell.Tab.1.right/0.23.1280.727@0.23.1280.727" timestamp="1620699288112" />
     <state x="140" y="48" key="Vcs.Push.Dialog.v2" timestamp="1620012367067">
       <screen x="0" y="23" width="1280" height="727" />
     </state>
